@@ -1,0 +1,86 @@
+body{
+    background-image: url(/images/photo-1570257374937-1d2db29c7f12.jpg);
+    font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 120%;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color:white;
+    height:100vh;
+    position: relative;
+    padding: 0; margin: 0;
+}
+.navbar {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 50px;
+}
+.link{
+    align-self: center;
+    margin-left: 18px;
+    
+}
+.weather{
+    align-self: center;
+    text-align: right;
+    margin-right: 10px;
+}
+.clock{
+    margin-top: 75px;
+    font-size: 110px;
+    text-align: center;
+}
+.maincontent{
+    /* background-color: aquamarine; */
+}
+/* maincontent1  */
+.maincontent1{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.maincontent2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.focuswrapper{
+    margin-top: 35px;
+    text-align: center;
+    font-size: large;
+    /* background-color: blanchedalmond; */
+}
+.dash{
+    margin-top: 20px;
+}
+
+
+
+
+/* footer settings */
+.footer{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    bottom:25px;
+    /* background-color: black; */
+    color: white;
+    margin: none;
+}
+
+.settings{
+   padding-left: 10px;
+   flex:1;
+   align-self: center;
+}
+.todo{
+    flex:1;
+    align-self: center;
+    text-align: right;
+    margin-right: 20px;
+
+    
+}
+
